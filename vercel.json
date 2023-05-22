@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "CI": "1",
+      "VERCEL": "1"
+    },
+    "npmScript": "build",
+    "args": ["--force"]
+  }
+}
